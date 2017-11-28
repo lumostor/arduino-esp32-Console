@@ -1,0 +1,15 @@
+{
+  "name": "Console",
+  "keywords": "console cli shell esp32",
+  "description": "Implement a Console class for arduino on esp32, the current implementation use linenoise to read the line running in a task but that task do noting but print wath was typed. A new class inherited from Console and re implementing consoleTask() can do something usefull",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/lumostor/arduino-esp32-console.git"
+  },
+  "frameworks": "arduino",
+  "platforms":
+  [
+    "esp32"
+  ]
+}
