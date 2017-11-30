@@ -117,7 +117,6 @@ void Console::freeLine(char *line) {
 }
 
 void Console::consoleTaskStart( ) {
-    printf("this=%h\n",this);
 
   xTaskCreate(
 	      consoleTaskWrapper,           /* Task function. */
